@@ -1,11 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Router basename='/'>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -20,7 +18,6 @@ function App() {
           Learn React
         </a>
       </header>
-      </Router>
     </div>
   );
 }
